@@ -1,8 +1,21 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("stockphoto.jpg");
+    background-image: url("keyboard.jpg");
     background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.banner-area h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    text-align: center;
+    top: 43%;
+    left: 35%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-nav {
