@@ -7,6 +7,10 @@ body{
     height: 100vh;
 }
 
+#headername{
+    color:yellow;
+}
+
 .banner-area h3{
     font-family: 'Anton', sans-serif;
     font-size: 100px;
