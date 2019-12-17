@@ -1,7 +1,7 @@
 #home-body{
     margin: 0;
     padding: 0;
-    background-image: url("keyboard.jpg");
+    background-image: url("images/keyboard.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -41,3 +41,15 @@
     display: inline-block;
     float:none;
 }
+
+/*Portfolio*/
+.portfolio{
+    margin: 4em 0;
+       position: relative; 
+   }
+   .portfolio img{
+     height: 15rem;
+     width: 100%;
+     margin: 1em;
+     
+   }
