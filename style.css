@@ -74,7 +74,6 @@
   height: 16rem;
   width: 100%;
   margin: 1em;
-  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   left: 0;
   top: 0;
@@ -83,6 +82,26 @@
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
+}
+
+.content #ssc-content {
+  background-color: rgba(0, 123, 255, 0.7);
+}
+
+.content #online-content {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+.content #code-content {
+  background-color: rgba(32, 201, 151, 0.7);
+}
+
+.content #slack-content {
+  background-color: rgba(111, 66, 193, 0.7);
+}
+
+.content #fps-content {
+  background-color: rgba(255, 193, 7, 0.7);
 }
 
 .content:hover .content-overlay {
@@ -110,8 +129,12 @@
   opacity: 1;
 }
 
+.content:hover .content-details h3 {
+  color: white;
+}
+
 .content-details p {
-  color: blue;
+  color: white;
   font-size: 0.8em;
 }
 /*# sourceMappingURL=style.css.map */
