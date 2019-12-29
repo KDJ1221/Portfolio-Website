@@ -64,22 +64,17 @@ $color: white;
 
 
 .content {
-   /* overflow: hidden; */
-    /* margin: auto; */
     margin: 4em 0;
     position: relative; 
     height: 15rem;
     width: 100%;
-    margin: 1em;
+    margin: 2em;
     
     .content-overlay{
     height: 16rem;
     width: 100%;
     margin: 1em;
-   // background: rgba(0,0,0,0.7);
     position: absolute;
-    // height: 113%;
-    // width: 102.5%;
     left: 0;
     top: 0;
     bottom: 0;
@@ -131,18 +126,14 @@ $color: white;
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
+
+    h3{
+      color:$color;
+    }
   }
   
   .content:hover .content-details{
     top: 50%;
     left: 50%;
     opacity: 1;
-    h3{
-      color:$color;
-    }
-  }
-  
-  .content-details p{
-    color:$color;
-    font-size: 0.8em;
   }

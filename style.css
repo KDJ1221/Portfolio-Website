@@ -61,13 +61,11 @@
 }
 
 .content {
-  /* overflow: hidden; */
-  /* margin: auto; */
   margin: 4em 0;
   position: relative;
   height: 15rem;
   width: 100%;
-  margin: 1em;
+  margin: 2em;
 }
 
 .content .content-overlay {
@@ -123,18 +121,13 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
+.content-details h3 {
+  color: white;
+}
+
 .content:hover .content-details {
   top: 50%;
   left: 50%;
   opacity: 1;
-}
-
-.content:hover .content-details h3 {
-  color: white;
-}
-
-.content-details p {
-  color: white;
-  font-size: 0.8em;
 }
 /*# sourceMappingURL=style.css.map */
