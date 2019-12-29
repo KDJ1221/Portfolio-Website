@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Student Startup Center</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="nav-placeholder"></div>
+<div class="container">
+    <div class="row">
+        <div class="project-page">
+            <section class="title_header col-12">
+                <h2>Work at the Student Startup Center</h2>
+            </section>
+            
+            <section class="col-12">
+            <h1>Summary</h1>
+            <p>
+                ptio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda
+                omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis autrerum necessitatibus 
+                saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque 
+                earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
+                maiores alias consequatur aut perferendis doloribus asperiores repellat."
+            </p>
+        </section>
+        </div>
+    </div>
+    </div>
+
+
+    <script>
+        $.get("navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+</body>
+</html>
