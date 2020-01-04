@@ -130,4 +130,15 @@
   left: 50%;
   opacity: 1;
 }
+
+.project-page {
+  margin: 4em 0;
+  position: relative;
+}
+
+.project-page .project-page img {
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
+}
 /*# sourceMappingURL=style.css.map */

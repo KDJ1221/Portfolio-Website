@@ -64,7 +64,6 @@ $main-font: 'Anton', sans-serif;
      
 }
 
-
 .content {
     margin: 4em 0;
     position: relative; 
@@ -141,5 +140,12 @@ $main-font: 'Anton', sans-serif;
   }
 
   .project-page{
- 
+    margin: 4em 0;
+    position: relative; 
+  
+    .project-page img{
+      height: 15rem;
+      width: 100%;
+      margin: 1em;
+     }
   }
