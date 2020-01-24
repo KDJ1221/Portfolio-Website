@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Online Courses</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="nav-placeholder"></div>
+<div class=project-page>
+    <div class="container">
+        <div class="row">
+                <section class="title_header col-12">
+                    <h1>Online Course Work</h1>
+                </section>
+                
+                <section class="col-12">
+                <h2>Summary</h2>
+                <p>
+                   Over the last few years I've come to realize that there is more to the field of Computer Science and Engineering than just theory.
+                   Outside of class, I make time to find and utilize online resources to learn more about the many different
+                   categories of Computer Science and the applications that can be created! 
+                </p>
+
+                <p>
+                    In the past I've completed web and game development courses on Udemy. Although not technically a CS related course, I 
+                    also completed <a href="https://www.coursera.org/learn/learning-how-to-learn">Learning How to Learn on Coursera</a> to
+                    improve my critical thinking skills and study habits. I am
+                    currently working on a Datacamp learning track, and a Udacity Data Analyst track to better 
+                    understand and learn more about the field of Data Science.
+                </p>
+            </section>
+
+            <div class="col-md-6 col-12">
+                <div class="project-content">
+                    <img class="img-fluid rounded" src="images/L2HL.jpeg">
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+                <div class="project-content">
+                    <img class="img-fluid rounded" src="images/web_dev.jpg">
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+                <div class="project-content">
+                    <img class="img-fluid rounded" src="images/cs_50.jpg">
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+                <div class="project-content">
+                    <img class="img-fluid rounded" src="images/data_camp.png">
+                </div>
+            </div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script>
+        $.get("navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+</body>
+</html>
