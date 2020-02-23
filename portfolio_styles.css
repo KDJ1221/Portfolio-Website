@@ -40,25 +40,12 @@
     }
   }
   
-  #reveal_projects {
-    position: absolute;
-    left: 48.5%;
-    top: -16vh;
-  }
-  
   .module_wrapper {
     display: flex;
     background: white;
     align-items: center;
     margin-bottom: 30px;
   }
-  
-  /* If we can fit HD in
-  .module_wrapper:first-of-type {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  */
   
   .module_wrapper {
     padding-right: 0;
@@ -115,80 +102,58 @@
     transition: 150ms linear 0s;
   }
   
-  #uwp_image {
-    background: url(images/uwp_hero.svg) no-repeat;
+  #slack_image {
+    background: url(images/slack.jpg) no-repeat;
     background-position: center;
-    background-size: 80%;
+    background-size: 100%;
   }
   
-  #uwp_module_description:hover {
-    background: rgba(25, 150, 190, 0.8);
+  #slack_module_description:hover {
+    background: rgba(111, 66, 193, 0.7);
     transition: 150ms linear 0s;
   }
   
-  #fbmap_image {
-    background: url(images/fbmap_handmockup.png) no-repeat;
+  #fps_image {
+    background: url(images/victrlab.png) no-repeat;
     background-position: center;
-    background-size: 80%;
+    background-size: 105%;
   }
   
-  #fbmap_module_description:hover {
-    background: rgba(65, 103, 177, 0.8);
+  #fps_module_description:hover {
+    background: rgba(255, 193, 7, 0.7);
     transition: 150ms linear 0s;
   }
   
-  #googleprompt_image {
-    background: url(images/googleprompt/hifi1.png) no-repeat;
+  #online_image {
+    background: url(images/online-learning.jpg) no-repeat;
     background-position: center;
-    background-size: 25%;
+    background-size: 105%;
   }
   
-  #googleprompt_module_description:hover {
-    background: rgb(88, 165, 92, 0.8);
+  #online_module_description:hover {
+    background: rgba(255, 0, 0, 0.7);
     transition: 150ms linear 0s;
   }
   
-  #ddc_image {
-    background: url(images/davis_design_collective_logo.svg) no-repeat;
-    background-position: center;
-    background-size: 40%;
-  }
-  
-  #ddc_module_description:hover {
-    background: rgb(33, 173, 229, 0.8);
-    transition: 150ms linear 0s;
-  }
-  
-  #uipsych_image {
-    background: url(images/uipsych_flashsale.svg) no-repeat;
-    background-position: center;
-    background-size: 40%;
-  }
-  
-  #uipsych_module_description:hover {
-    background: rgba(100, 54, 156, 0.8);
-    transition: 150ms linear 0s;
-  }
-  
-  #hackdavis_image {
-    background: url(images/hackdavis/hackdavis_header.png) no-repeat;
+  #codepath_image {
+    background: url(images/codepath.png) no-repeat;
     background-position: 38% 50%;
-    background-size: 65%;
+    background-size: 70%;
   }
   
-  #hackdavis_module_description:hover {
-    background: rgba(88, 217, 218, 0.8);
+  #codepath_module_description:hover {
+    background: rgba(32, 201, 151, 0.7);
     transition: 150ms linear 0s;
   }
   
-  #google_internship_image {
-    background: url(images/google_internship/google-shopping.svg) no-repeat;
+  #ssc_image {
+    background: url(images/ssc.png) no-repeat;
     background-position: center;
-    background-size: 25%;
+    background-size: 75%;
   }
   
-  #google_internship_module_description:hover {
-    background: rgba(234, 66, 53, 0.8);
+  #ssc_module_description:hover {
+    background: rgba(0, 123, 255, 0.7);
     transition: 150ms linear 0s;
   }
   
@@ -248,35 +213,6 @@
     -webkit-animation-name: fadeInUp;
   }
 
-  /* Small devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) {
-  }
-  
-  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-  @media (min-width: 768px) {
-    .module_wrapper:nth-of-type(odd) {
-      padding-right: 30px;
-    }
-  
-    .module_wrapper:nth-of-type(even) {
-      padding-right: 30px;
-    }
-  }
-  
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-  }
-  
-  /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-    #header_image {
-      position: relative;
-      height: auto;
-      top: 0;
-      left: 0;
-      overflow: none;
-    }
-  
     #header_text {
       position: absolute;
       top: 46%;
@@ -287,29 +223,6 @@
       background: white;
       border: solid 1px #dfe4e6;
       border-radius: 10px;
-    }
-  
-  /* Fade in Animation */
-  
-  @keyframes fadeInUp {
-    from {
-      transform: translate3d(0, 20px, 0);
-    }
-  
-    to {
-      transform: translate3d(0, 0, 0);
-      opacity: 1;
-    }
-  }
-  
-  @-webkit-keyframes fadeInUp {
-    from {
-      transform: translate3d(0, 20px, 0);
-    }
-  
-    to {
-      transform: translate3d(0, 0, 0);
-      opacity: 1;
     }
   }
   
@@ -336,10 +249,6 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: none !important;
   }
-
-  .display-3 {
-    margin-bottom:
-  }
   
   
   .highlight {
@@ -358,61 +267,9 @@
     font-weight: normal;
   }
   
-  .project_header_vertical_padding{
-    height: 30vh;
-  }
-  
-  .horizontal_padding_20p {
-    padding-right: 20%;
-    padding-left: 20%;
-  }
-  
-  .vertical_padding_20px {
-    padding-bottom: 20px;
-  }
-  
-  footer{
-      background-color: aliceblue;
-  }
-  
-  
-  .reveal_content_section {
-    height: 25vh;
-  
-  }
-  
-  .reveal_content {
-    position: relative;
-    width: 0;
-    padding: 1rem;
-    display: block;
-    margin: auto;
-    border: solid .5px lightgrey;
-    border-radius: 50px;
-    -webkit-transition: all 200ms ease-in;
-  
-  }
-  
-  .reveal_content:hover {
-    -webkit-box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
-    box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
-    border: solid .5px white;
-    -webkit-transition: all 200ms ease-in;
-  
-  }
-  
-  .reveal_content i {
-    position: absolute;
-    left: 28%;
-    top: 50%;
-    font-size: 1rem;
-    text-align: center;
-    color: #343A40;
-  }
   
   .project_modules{
     margin-top: 1rem;
   }
   
-    }
-  }
+    

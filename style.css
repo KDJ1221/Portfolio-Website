@@ -1,3 +1,46 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .module_wrapper:nth-of-type(odd) {
+    padding-right: 30px;
+  }
+
+  .module_wrapper:nth-of-type(even) {
+    padding-right: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #header_image {
+    position: relative;
+    height: auto;
+    top: 0;
+    left: 0;
+    overflow: none;
+  }
+}
+
+@media only screen and (min-device-height: 1120px) {
+  #spacer {
+    height: 0;
+  }
+}
+
+@media only screen and (max-device-height: 1119px) {
+  #spacer {
+    height: 220px;
+  }
+}
+
+
 .portfolio img {
   border: 3px solid #000;
   padding: 0;
@@ -82,25 +125,6 @@
   transition: all 0.4s ease-in-out 0s;
 }
 
-.content #ssc-content {
-  background-color: rgba(0, 123, 255, 0.7);
-}
-
-.content #online-content {
-  background-color: rgba(255, 0, 0, 0.7);
-}
-
-.content #code-content {
-  background-color: rgba(32, 201, 151, 0.7);
-}
-
-.content #slack-content {
-  background-color: rgba(111, 66, 193, 0.7);
-}
-
-.content #fps-content {
-  background-color: rgba(255, 193, 7, 0.7);
-}
 
 .content:hover .content-overlay {
   opacity: 1;
@@ -157,4 +181,3 @@
   width: 100%;
   margin: 2em;
 }
-/*# sourceMappingURL=style.css.map */
