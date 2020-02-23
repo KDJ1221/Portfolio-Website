@@ -213,17 +213,6 @@
     -webkit-animation-name: fadeInUp;
   }
 
-    #header_text {
-      position: absolute;
-      top: 46%;
-      /*top: -20vh;*/
-      z-index: 300;
-      padding: 2rem 2rem 1.2rem 2rem;
-      width: 475px;
-      background: white;
-      border: solid 1px #dfe4e6;
-      border-radius: 10px;
-    }
   }
   
   .animated {
@@ -250,17 +239,6 @@
     -webkit-text-size-adjust: none !important;
   }
   
-  
-  .highlight {
-    color: white;
-    height: 50%;
-    background-color: rgb(25, 150, 190);
-    background-position: 0 .75em;
-    padding-left: .3rem;
-    padding-right: .3rem;
-    border-radius: 4px;
-    font-size: inherit;
-  }
   span.project_module_text {
     font-family: "Titillium Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.5rem;

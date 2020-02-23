@@ -156,8 +156,9 @@
 }
 
 .project-page {
-  margin: 4em 0;
+  margin: 1em 0;
   position: relative;
+  margin-bottom: 25px;
 }
 
 .project-page .project-page img {
