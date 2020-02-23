@@ -1,94 +1,111 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <!-- Reset -->
+  <link rel="stylesheet" href="reset.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Page Specific Styles -->
+  <link rel="stylesheet" href="portfolio_styles.css">
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+
 </head>
+
 <body>
+<!-- Projects Section -->
     <div id="nav-placeholder"></div>
-    <div class="portfolio">
     <div class="container">
-     <div class="row">
+    <div id="projects_header" class="viewport_vertical_top_padding_20   portfolio_section">
+        <div class="container-fluid project_modules">
+        <div class="row">
 
-    
-      <div class="col-md-6 col-12">
-        <div class="content">
-        <a href="ssc.html">
-            <div id = "ssc-content" class="content-overlay rounded"></div>
-            <img class="img-fluid rounded" src="images/ssc.png">
-            <div class="content-details fadeIn-right">
-                <h3>UC Davis Student Startup Center</h3>
-                <h3>Work</h3>
-              </div>
-        </a>
-        </div>
-      </div>
+            <div class="col-md-6   col-12   module_wrapper">
+            <a class="module_link "href="ssc.html">
+                <div class="module">
+                <div id="ssc_image" class="module_image"></div>
 
-      <div class="col-md-6 col-12">
-        <div class="content">
-        <a href="online.html">
-            <div id= "online-content" class="content-overlay rounded"></div>
-            <img class="img-fluid rounded" src="images/online-learning.jpg">
-            <div class="content-details fadeIn-right">
-                <h3>Online Courses</h3>
-              </div>
-        </a>
-        </div>
-      </div>
+                <div id="ssc_module_description" class="module_description">
+                    <span class="project_module_text" id="ssc_module_label">UC Davis Student Startup Center<br>Work</span>
+                </div>
 
-      <div class="col-md-6 col-12">
-        <div class="content">
-        <a href="code.html">
-            <div id="code-content" class="content-overlay rounded"></div>
-            <img class="img-fluid rounded" src="images/codepath.png">
-            <div class="content-details fadeIn-right">
-                <h3>Codepath Projects</h3>
-              </div>
-        </a>
-        </div>
-      </div>
-         
-      <div class="col-md-6 col-12">
-        <div class="content">
-        <a href="slack.html">
-            <div id= "slack-content" class="content-overlay rounded"></div>
-            <img class="img-fluid rounded" src="images/slack.jpg">
-            <div class="content-details fadeIn-right">
-                <h3>Slack</h3>
-                <h3>Software Engineering Internship</h3>
-              </div>
-        </a>
-        </div>
-      </div>
+                </div>
+            </a>
+            </div>
 
-      <div class="col-md-6 col-12">
-        <div class="content">
-        <a href="fps.html">
-            <div id= "fps-content" class="content-overlay rounded"></div>
-            <img class="img-fluid rounded" src="images/victrlab.png">
-            <div class="content-details fadeIn-right">
-                <h3>First Person Shooter Game</h3>
-                <h3>Research Development Project</h3>
-              </div>
-        </a>
-        </div>
-      </div>
+            <div class="col-md-6   col-12   module_wrapper">
+            <a class="module_link" href="online.html">
+                <div class="module">
+                <div id="online_image" class="module_image"></div>
 
-     </div>
+                <div class="module_description" id="online_module_description">
+                    <span class="project_module_text" id="online_module_label">Online Courses</span>
+                </div>
+
+                </div>
+            </a>
+            </div>
+
+            <div class="col-md-6   col-12   module_wrapper">
+            <a class="module_link" href="code.html">
+                <div class="module">
+                <div id="codepath_image" class="module_image"></div>
+
+                <div class="module_description" id="codepath_module_description">
+                    <span class="project_module_text" id="codepath_module_label">Codepath Projects</span>
+                </div>
+
+                </div>
+            </a>
+            </div>
+
+            <div class="col-md-6   col-12   module_wrapper">
+            <a class="module_link "href="slack.html">
+                <div class="module">
+                <div id="slack_image" class="module_image"></div>
+
+                <div id="slack_module_description" class="module_description">
+                    <span class="project_module_text" id="slack_module_label">Slack<br>Software Engineering Internship</span>
+                </div>
+
+                </div>
+            </a>
+            </div>
+
+            <div class="col-md-6   col-12   module_wrapper">
+            <a class="module_link" id="fps_module_description" href="fps.html">
+                <div class="module">
+                <div id="fps_image" class="module_image"></div>
+
+                <div class="module_description" id="fps_module_description">
+                    <span class="project_module_text" id="fps_module_label">First Person Shooter Game<br>Research Development Project</span>
+                </div>
+
+                </div>
+            </a>
+            </div>
+
+        </div>
+        </div>
     </div>
-   </div>
+    </div>
 
     <script>
         $.get("navbar.html", function(data){
             $("#nav-placeholder").replaceWith(data);
         });
     </script>
-    
+
 </body>
-</html> -->
+
+</html>
